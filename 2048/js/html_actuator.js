@@ -52,7 +52,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 HTMLActuator.prototype.addTile = function (tile) {
-  var text = " 商周秦汉唐宋元明清　　";
+  var text = " 天周秦汉唐宋元明清　　";
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
@@ -139,7 +139,7 @@ HTMLActuator.prototype.message = function (won) {
   mytxt[3]="安史之乱亡我大唐……";
   mytxt[4]="元人铁蹄果然厉害！";
   mytxt[5]="还是朱元璋厉害……";
-  mytxt[6]="天地会的弟兄们，反清复明啊！";
+  mytxt[6]="天地会的弟兄们，反啊！";
   mytxt[7]="连辛亥革命的黎明都没等到……";
   mytxt[8]="看不到天朝的太阳了 = =";
 
